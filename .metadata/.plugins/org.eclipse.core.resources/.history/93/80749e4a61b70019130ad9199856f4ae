@@ -1,0 +1,21 @@
+package tw.bcroom335.javaproject.common;
+
+import java.util.HashSet;
+
+public class hashset {
+
+	public static void main(String[] args) {
+		HashSet st1=new HashSet();
+		
+		st1.add("john");
+		st1.add("mary");
+		st1.add("mary");
+		st1.add(8);
+		st1.add(3.14254789);
+		
+		System.out.println("size1:"+st1.size());
+		System.out.println("st1:"+st1);
+
+	}
+
+}
